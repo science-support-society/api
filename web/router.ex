@@ -7,5 +7,7 @@ defmodule Sciencesupport.Router do
 
   scope "/api", Sciencesupport do
     pipe_through :api
+
+    resources "/answers", AnswerController, only: [:create]
   end
 end

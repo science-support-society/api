@@ -25,7 +25,7 @@ config :phoenix, :stacktrace_depth, 20
 config :sciencesupport, Sciencesupport.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
-  password: "",
-  database: "sciencesupport_dev",
+  password: "toor",
+  database: "sciencesupport",
   hostname: "localhost",
   pool_size: 10
